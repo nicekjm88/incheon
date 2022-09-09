@@ -55,6 +55,10 @@ Create date :
     width: 100%;
     height: inherit;
   }
+
+  @media (max-width: 767px) {
+    min-height: inherit;
+  }
 }
 
 .contents-title {
@@ -1359,7 +1363,15 @@ Create date :
   }
 }
 
-@media (max-width: 1025px) {
+/* tablet */
+@media (max-width: 1180px) {
+  #wrap.intro .area-login .edge-round img {
+    max-width: 90%;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
   .area-mypage,
   .area-join,
   .area-reset {
